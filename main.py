@@ -16,6 +16,12 @@ play = True
 queue = q.MusicQueue()
 p = vlc.MediaPlayer("")
 
+#TODO: Move RFID sensor on hardware so vinyl tag is not always in contact
+#TODO: See if I can make it so that all the songs't don't have to be one long mp3
+#TODO: Make code run on raspi startup
+#TODO: Make sure pausing works through the wood
+#TODO: Find a way to hang it on the wall
+
 
 while True:
     try:
