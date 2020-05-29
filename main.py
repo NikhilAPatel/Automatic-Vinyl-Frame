@@ -7,7 +7,7 @@ import time
 import queue as q
 import vlc
 
-MUSIC_PATH = "/home/pi/Desktop/Music/"
+MUSIC_PATH = "/home/pi/Desktop/Music/" 
 
 reader = SimpleMFRC522()
 
